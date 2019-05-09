@@ -1,0 +1,7 @@
+#!/bin/sh -e
+/usr/bin/redis-server /etc/redis.conf
+/usr/bin/nginx -g "daemon on;"
+/usr/bin/php-fpm
+/bin/su - postgres -c "pg_ctl -D /var/lib/postgres/data -l /var/log/postgres/main.log start"
+#/opt/arangodb/bin/arangod -c /opt/arangodb/etc/arangod.conf
+/bin/bash
