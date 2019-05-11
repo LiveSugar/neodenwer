@@ -1,7 +1,0 @@
-#!/bin/sh -e 
-
-NAME=neodenwer
-VERSION=v1.1
-
-ID=`docker container ls | grep  ${NAME}:${VERSION} | awk '{print $1}'`
-docker run -d -p 127.0.0.1:80:80 -v `pwd`/app --restart=unless-stopped  ${NAME}:${VERSION} /usr/sbin/start
