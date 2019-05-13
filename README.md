@@ -1,5 +1,11 @@
 ![Docker Pulls](https://img.shields.io/docker/pulls/andreybuturlakin/neodenwer.svg?style=popout)
 ![Docker Stars](https://img.shields.io/docker/stars/andreybuturlakin/neodenwer.svg?style=popout)
 ![Docker Layers](https://img.shields.io/microbadger/layers/andreybuturlakin/neodenwer.svg?style=popout)
-![](https://img.shields.io/microbadger/image-size/andreybuturlakin/neodenwer/latest.svg?style=popout)
-![](https://img.shields.io/docker/cloud/build/andreybuturlakin/neodenwer:v1.0.svg)
+![g](https://img.shields.io/microbadger/image-size/andreybuturlakin/neodenwer/latest.svg?style=popout)
+![g](https://img.shields.io/docker/cloud/build/andreybuturlakin/neodenwer:v1.0.svg)
+
+# It is Run
+
+```
+docker run -dt -p 127.0.0.100:80:80 -p 127.0.0.100:81:81 -p 127.0.0.100:82:82 -p 127.0.0.100:83:8529 -p 127.0.0.100:85:85 -v `pwd`/app:/webserver --restart=unless-stopped  andreybuturlakin/neodenwer:latest /usr/sbin/start
+```
