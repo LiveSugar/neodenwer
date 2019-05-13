@@ -2,3 +2,4 @@
 ![Docker Stars](https://img.shields.io/docker/stars/andreybuturlakin/neodenwer.svg?style=popout)
 ![Docker Layers](https://img.shields.io/microbadger/layers/andreybuturlakin/neodenwer.svg?style=popout)
 ![](https://img.shields.io/microbadger/image-size/andreybuturlakin/neodenwer/latest.svg?style=popout)
+![](https://img.shields.io/docker/cloud/build/andreybuturlakin/neodenwer:v1.0.svg)
