@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <title>Welcome</title>
+  </head>
+<style>
+* {
+  box-sizing:border-box;
+}
+html,body {
+  margin:0px;
+  padding:0px;
+}
+
+#welcome {
+  font-size:3rem;
+    text-align:center;
+      padding:25px;
+        margin:0px;
+  color:#333;
+}
+
+#container {
+  width:1000px;
+  margin:0px auto;
+}
+
+a.mainmenu {
+  display:inline-block;
+  text-decoration: none;
+  border:1px solid #eee;
+  border-radius:3px;
+  padding:15px;
+  width:490px;
+  max-width:490px;
+  margin:5px;
+}
+a.mainmenu > h2 {
+  text-align:center;
+  font-size:2rem;
+  color:#555;
+  margin:0px;
+  padding:0px;
+  padding-bottom:15px;
+}
+a.mainmenu > div {
+  display:block;
+  width:400px;
+  height:200px;
+  margin:0px auto;
+    background-size:400px 200px;
+      background-repeat:no-repeat;
+}
+a.mainmenu.application > div {
+  background-image:url('/img/app.png');
+}
+a.mainmenu.adminer > div {
+  background-image:url('/img/adminer.png');
+}
+a.mainmenu.redis > div {
+  background-image:url('/img/redisweb.png');
+}
+a.mainmenu.arango > div {
+  background-image:url('/img/arangoweb.png');
+}
+</style>
+  <body>
+    <div id="container">
+    <h1 id="welcome">Welcome</h1>
+    <a class="mainmenu application" href="http://127.0.0.100:85"><h2>Application</h2><div></div></a><a class="mainmenu adminer" href="http://127.0.0.100:81"><h2>Adminer</h2><div></div></a><a class="mainmenu redis" href="http://127.0.0.100:82"><h2>Redis Web Interface</h2><div></div></a><a class="mainmenu arango" href="http://127.0.0.100:83"><h2>Arango Web Interface</h2><div></div></a>
+    </div>
+  </body>
+</html>
