@@ -1,1 +1,7 @@
-# Documentation
+[![Travis](https://shields.beevelop.com/travis/beevelop/docker-shields.svg?style=flat-square)](https://travis-ci.org/beevelop/docker-shields)
+[![Pulls](https://shields.beevelop.com/docker/pulls/beevelop/shields.svg?style=flat-square)](https://links.beevelop.com/d-shields)
+[![Layers](https://shields.beevelop.com/docker/image/layers/beevelop/shields/latest.svg?style=flat-square)](https://links.beevelop.com/d-shields)
+[![Size](https://shields.beevelop.com/docker/image/image-size/beevelop/shields/latest.svg?style=flat-square)](https://links.beevelop.com/d-shields)
+[![Release](https://shields.beevelop.com/github/release/beevelop/docker-shields.svg?style=flat-square)](https://github.com/beevelop/docker-shields/releases)
+![Badges](https://shields.beevelop.com/badge/badges-7-brightgreen.svg?style=flat-square)
+[![Beevelop](https://links.beevelop.com/honey-badge)](https://beevelop.com)
