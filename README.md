@@ -4,7 +4,6 @@
 ![Docker Layers](https://img.shields.io/microbadger/layers/andreybuturlakin/neodenwer.svg?style=popout)
 ![Docker Image Size](https://img.shields.io/microbadger/image-size/andreybuturlakin/neodenwer/latest.svg?style=popout)
 ![Docker Build Automated](https://img.shields.io/docker/automated/andreybuturlakin/neodenwer.svg)
-![g](https://img.shields.io/docker/cloud/build/andreybuturlakin/neodenwer:v1.0.svg)
 
 [Docker Hub](https://hub.docker.com/r/andreybuturlakin/neodenwer)
 
