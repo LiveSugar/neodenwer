@@ -3,5 +3,7 @@
 /usr/bin/nginx -g "daemon on;"
 /usr/bin/php-fpm
 /bin/su - postgres -c "pg_ctl -D /var/lib/postgres/data -l /var/log/postgres/main.log start"
-/bin/screen -dm /opt/arangodb/usr/sbin/arangod -c /opt/arangodb/usr/share/arangodb3/arangod.conf
+#/bin/screen -dm /opt/arangodb/usr/sbin/arangod -c /opt/arangodb/usr/share/arangodb3/arangod.conf
+/bin/rm -f /tmp/arangod.pid
+/opt/arangodb/usr/sbin/arangod --daemon -c /opt/arangodb/usr/share/arangodb3/arangod.conf
 /bin/bash
