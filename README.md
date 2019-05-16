@@ -7,8 +7,7 @@
 ![Docker Image Size](https://img.shields.io/microbadger/image-size/andreybuturlakin/neodenwer/latest.svg?style=popout)
 ![Docker Build](https://img.shields.io/docker/cloud/build/andreybuturlakin/neodenwer.svg)
 
-If need get passing build image go to [Docker Hub](https://hub.docker.com/r/andreybuturlakin/neodenwer)
-
+if you need something. Go to link. [Docker Hub](https://hub.docker.com/r/andreybuturlakin/neodenwer)
 
 ## Basic Usage
 
