@@ -1,6 +1,6 @@
 #!/bin/sh
 NAME=neodenwer
-VERSION=v1.0
+VERSION=v1.0.1
 ID=`docker container ls | grep  ${NAME}:${VERSION} | awk '{print $1}'`
 
 docker build -t ${NAME}:${VERSION} .
