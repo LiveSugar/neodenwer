@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ![NEODENWER](https://raw.githubusercontent.com/LiveSugar/neodenwer/master/img/neodenwer.png?1)
+=======
+![NEODENWER](https://raw.githubusercontent.com/LiveSugar/neodenwer/master/neodenwer.866.png)
+>>>>>>> 5f418db54414432993f660a0fccdf2c18fc3f4de
 
 
 
