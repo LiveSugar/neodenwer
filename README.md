@@ -1,4 +1,4 @@
-![NEODENWER](https://raw.githubusercontent.com/LiveSugar/neodenwer/master/neodenwer.png?1)
+![NEODENWER](https://raw.githubusercontent.com/LiveSugar/neodenwer/master/neodenwer.866.png)
 
 
 
