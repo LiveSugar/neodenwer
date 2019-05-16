@@ -9,7 +9,7 @@
 
 If you need something else. Go to link. [Docker Hub](https://hub.docker.com/r/andreybuturlakin/neodenwer)
 
-![NEODENWER](https://raw.githubusercontent.com/LiveSugar/neodenwer/master/neodenwer.svg)
+![NEODENWER](https://raw.githubusercontent.com/LiveSugar/neodenwer/master/neodenwer.png)
 
 ## Table of contents
 
