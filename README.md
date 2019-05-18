@@ -58,3 +58,12 @@ docker run -dt -p 127.0.0.1:80:80 -p 127.0.0.1:81:81 -p 127.0.0.1:82:82 -p 127.0
 ```
 
 
+## Ports
+
+ * :80 - Open Application
+ * :81 - Open Adminer (PostgreSql[host:localhost,user:postgres,pass:postgres,base:postgres])
+ * :82 - Open phpRedisAdmin
+ * :83 - Open ArangoDB
+ * :85 - Open Welcome Page
+
+
