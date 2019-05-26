@@ -46,6 +46,7 @@ Create shell file *power.sh*
 NAME=you_name_project
 VERSION=v1.0
 ID=`docker container ls | grep  ${NAME}:${VERSION} | awk '{print $1}'`
+IP=127.0.0.1
 
 if [ -z "$ID" ]
 then
@@ -55,7 +56,7 @@ else
   docker container rm ${ID}
 fi
 
-docker run -dt -p 127.0.0.1:80:80 -p 127.0.0.1:81:81 -p 127.0.0.1:82:82 -p 127.0.0.1:83:8529 -p 127.0.0.1:85:85 -v `pwd`/app:/webserver --restart=unless-stopped  ${NAME}:${VERSION} /usr/sbin/start
+docker run -dt -p ${IP}:80:80 -p ${IP}:81:81 -p ${IP}:82:82 -p ${IP}:83:8529 -p ${IP}:85:85 -v `pwd`/app:/webserver --restart=unless-stopped  ${NAME}:${VERSION} /usr/sbin/start
 ```
 
 
