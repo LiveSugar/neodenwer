@@ -58,7 +58,7 @@ fi
 
 mkdir -p `pwd`/app/http
 
-docker run -dt -p ${IP}:80:80 -p ${IP}:81:81 -p ${IP}:82:82 -p ${IP}:83:8529 -p ${IP}:85:85 -v `pwd`/app:/webserver --restart=unless-stopped  ${NAME}:${VERSION} /usr/sbin/start
+docker run -dt -p ${IP}:80:80 -p ${IP}:81:81 -p ${IP}:82:82 -p ${IP}:83:8529 -p ${IP}:85:85 --mount src="$(pwd)/app",target=/srv/webserver,type=bind --restart=unless-stopped  ${NAME}:${VERSION} /usr/sbin/start
 ```
 
 
