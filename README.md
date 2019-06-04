@@ -28,7 +28,7 @@ root# ./make
 
 It is Run
 ```
-root# docker run -dt -p 127.0.0.100:80:80 -p 127.0.0.100:81:81 -p 127.0.0.100:82:82 -p 127.0.0.100:83:8529 -p 127.0.0.100:85:85 -v `pwd`/app:/srv/webserver --restart=unless-stopped  andreybuturlakin/neodenwer:latest /usr/sbin/start
+root# docker run -dt -p 127.0.0.100:80:80 -p 127.0.0.100:81:81 -p 127.0.0.100:82:82 -p 127.0.0.100:83:8529 -p 127.0.0.100:85:85 --mount src="$(pwd)/app",target=/srv/webserver,type=bind --restart=unless-stopped  andreybuturlakin/neodenwer:latest /usr/sbin/start
 ```
 
 ## Create New Project
